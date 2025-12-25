@@ -1,54 +1,75 @@
-# User Personas – MedFlow
+# MedFlow – User Personas
 
-MedFlow is designed as a B2B healthcare product. The following personas represent real users interacting with the system.
+## Overview
 
----
+This document defines the **primary user personas** for the MedFlow system.  
+User personas help us understand **who the users are**, **what problems they face**, and **how MedFlow solves those problems**.
 
-## Doctor Persona
-
-Name: Dr. Anil Sharma  
-Role: Doctor  
-Experience: 12 years  
-
-### Background
-Dr. Sharma works in a busy hospital and consults dozens of patients daily. He needs a fast, reliable way to manage visits and prescriptions digitally.
-
-### Goals
-- Quick consultations
-- Clear prescriptions
-- Reduced paperwork
-- Accurate medicine instructions
-
-### Pain Points
-- Handwritten prescriptions cause confusion
-- No standard medicine format
-- Time wasted on repetitive tasks
-
-### How MedFlow Helps
-- Visit-based consultation flow
-- Structured medicine types (tablet, syrup, injection)
-- Clear dosage and duration fields
-- One-click PDF generation
+For this project, we focus on **two core personas** to keep the scope small and realistic.
 
 ---
 
-## Patient Persona
+## Persona 1: Doctor
 
-Name: Rahul Verma  
-Role: Patient  
-
-### Background
-Rahul often struggles to understand handwritten prescriptions and forgets medicine instructions.
+### Basic Information
+- **Name:** Dr. Amit Sharma  
+- **Age:** 38  
+- **Role:** Consulting Physician  
+- **Experience:** 12+ years  
+- **Technical Comfort:** Medium  
 
 ### Goals
-- Clear prescriptions
-- Easy access to medical records
+- Consult patients efficiently
+- Write clear and accurate prescriptions
+- Access past patient medical records quickly
+- Reduce dependency on paper-based workflows
 
 ### Pain Points
-- Illegible handwriting
-- Confusing dosage instructions
+- Paper prescriptions are often lost by patients
+- Difficult to track patient medical history
+- Manual documentation takes time during consultation
+- No centralized system for patient visits and prescriptions
 
 ### How MedFlow Helps
-- Digital prescriptions
-- Clearly defined medicine types
-- Printable PDFs
+- Allows digital consultation linked to visits
+- Generates structured digital prescriptions
+- Stores patient visit history securely
+- Enables quick access to past medical records
+
+---
+
+## Persona 2: Hospital Admin
+
+### Basic Information
+- **Name:** Rajiv Mehta  
+- **Age:** 45  
+- **Role:** Hospital Administrator  
+- **Experience:** 15+ years managing hospital operations  
+- **Technical Comfort:** Medium  
+
+### Goals
+- Manage doctors and staff efficiently
+- Ensure data security and access control
+- Maintain proper hospital records
+- Prevent unauthorized access to hospital data
+
+### Pain Points
+- Manual staff management is error-prone
+- Difficult to enforce role-based access
+- Risk of data leakage across hospitals
+- No centralized control over system users
+
+### How MedFlow Helps
+- Provides role-based user management
+- Ensures hospital-level data isolation
+- Allows activation/deactivation of users
+- Centralizes hospital operations in one system
+
+---
+
+## Persona Summary
+
+| Persona | Primary Responsibility |
+|------|-----------------------|
+Doctor | Patient consultation and prescription management |
+Hospital Admin | User management and system control |
